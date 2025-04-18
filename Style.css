@@ -1,0 +1,16 @@
+body {
+    background-color: green;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.img {
+    width: 200px;
+    /* Adjust as needed */
+}
+
+.map {
+    height: 600px;
+    width: auto;
+}

@@ -6,8 +6,9 @@
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <link rel="stylesheet" href="Style.css" />
     <script src="Crossing_Locations.js"></script>
-    <title>Mapping Crosswalk Activity in Albuquerque</title>
+    <title>Mapping Crosswalk Activity at UNM</title>
     <style>
         body {
             background-color: green;
@@ -29,8 +30,8 @@
 </head>
 
 <body>
-    <h1>GEOG 485L: Bianca Camacho & Jackie Davis</h1>
-    <p>Welcome to our project on crosswalk activity in Albuquerque!</p>
+    <h1>Pedestrian Crossings at UNM</h1>
+    <p>Welcome to our project on crosswalk activity at The University of New Mexico!</p>
 
     <!-- Placeholder for image -->
     <img src="crosswalk-sign.png" alt="Crosswalk Sign">
@@ -73,12 +74,12 @@
                 fillOpacity: 1
             };
             var circleMarker = L.circleMarker(latlng, geojsonMarkerOptions);
-        
-              return circleMarker;
-            }
-            L.geoJSON(Crossings, {
-                pointToLayer: pointToCircle
-            }).addTo(map);
+
+            return circleMarker;
+        }
+        L.geoJSON(Crossings, {
+            pointToLayer: pointToCircle
+        }).addTo(map);
 
 
     </script>
