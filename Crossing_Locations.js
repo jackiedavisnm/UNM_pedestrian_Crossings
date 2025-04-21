@@ -11,7 +11,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -32,7 +33,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -53,7 +55,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 4
         },
         "geometry": {
           "coordinates": [
@@ -61,7 +64,8 @@ var Crossings={
             35.081165489491525
           ],
           "type": "Point"
-        }
+        },
+        "id": 2
       },
       {
         "type": "Feature",
@@ -73,7 +77,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 4
         },
         "geometry": {
           "coordinates": [
@@ -93,7 +98,8 @@ var Crossings={
           "Legal to Cross": "Illegal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Buena Vista",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 5
         },
         "geometry": {
           "coordinates": [
@@ -113,7 +119,8 @@ var Crossings={
           "Legal to Cross": "Illegal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Copper"
+          "EW Road/Landmark": "Copper",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -133,7 +140,8 @@ var Crossings={
           "Legal to Cross": "Illegal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Johnson Field"
+          "EW Road/Landmark": "Johnson Field",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -153,7 +161,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 35,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -161,7 +170,8 @@ var Crossings={
             35.08884327665888
           ],
           "type": "Point"
-        }
+        },
+        "id": 7
       },
       {
         "type": "Feature",
@@ -173,7 +183,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 35,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -194,7 +205,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 4
         },
         "geometry": {
           "coordinates": [
@@ -214,7 +226,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -235,7 +248,8 @@ var Crossings={
           "Traffic Control": "None",
           "Road Speed Limit": 35,
           "NS Road/Landmark": "Vassar",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -255,7 +269,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Ped Path",
-          "EW Road/Landmark": "Roma"
+          "EW Road/Landmark": "Roma",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -275,7 +290,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -295,7 +311,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -315,7 +332,8 @@ var Crossings={
           "Legal to Cross": "Legal ",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -335,7 +353,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Yale",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -355,7 +374,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Buena Vista",
-          "EW Road/Landmark": "Redondo"
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -375,7 +395,8 @@ var Crossings={
           "Side of Intersection": "N",
           "Avg Crossings/Hour": "N/A",
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Redondo"
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -395,7 +416,8 @@ var Crossings={
           "Side of Intersection": "S",
           "Avg Crossings/Hour": "N/A",
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Redondo"
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -415,7 +437,8 @@ var Crossings={
           "Side of Intersection": "W",
           "Avg Crossings/Hour": "N/A",
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Redondo"
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -435,7 +458,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Redondo"
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -455,7 +479,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "R-Lot",
-          "EW Road/Landmark": "Campus"
+          "EW Road/Landmark": "Campus",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -475,7 +500,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Vassar",
-          "EW Road/Landmark": "Campus"
+          "EW Road/Landmark": "Campus",
+          "Number of Lanes Crossed": 3
         },
         "geometry": {
           "coordinates": [
@@ -495,7 +521,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Campus"
+          "EW Road/Landmark": "Campus",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -515,7 +542,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Casas Del Rio"
+          "EW Road/Landmark": "Casas Del Rio",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -535,7 +563,8 @@ var Crossings={
           "Traffic Control": "Paint",
           "Avg Crossings/Hour": "N/A",
           "Crossing Direction": "NS",
-          "Side of Intersection": "N/A"
+          "Side of Intersection": "N/A",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -555,7 +584,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "McKinnon Center",
-          "EW Road/Landmark": "Campus"
+          "EW Road/Landmark": "Campus",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -575,7 +605,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -595,7 +626,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -615,7 +647,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -635,7 +668,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 3
         },
         "geometry": {
           "coordinates": [
@@ -655,7 +689,8 @@ var Crossings={
           "Traffic Control": "None",
           "Avg Crossings/Hour": "N/A",
           "Side of Intersection": "N/A",
-          "Crossing Direction": "EW"
+          "Crossing Direction": "EW",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -675,7 +710,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Cornell",
-          "EW Road/Landmark": "Redondo"
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -695,7 +731,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Cornell",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -715,7 +752,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Cornell",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -735,7 +773,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 25,
           "NS Road/Landmark": "Cornell",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 3
         },
         "geometry": {
           "coordinates": [
@@ -755,7 +794,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -775,7 +815,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 25,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 4
         },
         "geometry": {
           "coordinates": [
@@ -795,7 +836,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -815,7 +857,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 25,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -834,8 +877,9 @@ var Crossings={
           "Traffic Control": "None",
           "Legal to Cross": "Illegal",
           "Road Speed Limit": 20,
-          "NS Road/Landmark": "Gila Building",
-          "EW Road/Landmark": "Redondo"
+          "NS Road/Landmark": "Casas Del Rio - Gila",
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -856,7 +900,8 @@ var Crossings={
           "Legal to Cross": "Illegal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Columbia",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 5
         },
         "geometry": {
           "coordinates": [
@@ -876,7 +921,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -896,7 +942,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -916,7 +963,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -936,7 +984,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -956,7 +1005,8 @@ var Crossings={
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
           "EW Road/Landmark": "Dr. MLK",
-          "Avg Crossings/Hour": "N/A"
+          "Avg Crossings/Hour": "N/A",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -976,7 +1026,8 @@ var Crossings={
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
           "EW Road/Landmark": "Dr. MLK",
-          "Avg Crossings/Hour": "N/A"
+          "Avg Crossings/Hour": "N/A",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -996,7 +1047,8 @@ var Crossings={
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
           "EW Road/Landmark": "Dr. MLK",
-          "Avg Crossings/Hour": "N/A"
+          "Avg Crossings/Hour": "N/A",
+          "Number of Lanes Crossed": 3
         },
         "geometry": {
           "coordinates": [
@@ -1017,7 +1069,8 @@ var Crossings={
           "Road Speed Limit": 20,
           "NS Road/Landmark": "University",
           "EW Road/Landmark": "Dr. MLK",
-          "Avg Crossings/Hour": "N/A"
+          "Avg Crossings/Hour": "N/A",
+          "Number of Lanes Crossed": 3
         },
         "geometry": {
           "coordinates": [
@@ -1038,7 +1091,8 @@ var Crossings={
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
           "EW Road/Landmark": "Dr. MLK",
-          "Avg Crossings/Hour": "N/A"
+          "Avg Crossings/Hour": "N/A",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1058,7 +1112,8 @@ var Crossings={
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
           "EW Road/Landmark": "Dr. MLK",
-          "Avg Crossings/Hour": "N/A"
+          "Avg Crossings/Hour": "N/A",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1078,7 +1133,8 @@ var Crossings={
           "Crossing Direction": "N/A",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Mechanical Engineering Building"
+          "EW Road/Landmark": "Mechanical Engineering Building",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1098,7 +1154,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Centennial Engineering Center"
+          "EW Road/Landmark": "Centennial Engineering Center",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1118,7 +1175,8 @@ var Crossings={
           "Avg Crossings/Hour": "N/A",
           "Traffic Control": "Paint",
           "Legal to Cross": "Legal",
-          "Road Speed Limit": 20
+          "Road Speed Limit": 20,
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1138,7 +1196,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Roma"
+          "EW Road/Landmark": "Roma",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1158,7 +1217,8 @@ var Crossings={
           "Legal to Cross": "Illegal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "University",
-          "EW Road/Landmark": "Mesa Vista"
+          "EW Road/Landmark": "Mesa Vista",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -1178,7 +1238,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Roma"
+          "EW Road/Landmark": "Roma",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1198,7 +1259,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1218,7 +1280,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Redondo",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1238,7 +1301,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Buena Vista",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1258,7 +1322,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Buena Vista",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1278,7 +1343,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Buena Vista",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1298,7 +1364,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 1
         },
         "geometry": {
           "coordinates": [
@@ -1318,7 +1385,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 4
         },
         "geometry": {
           "coordinates": [
@@ -1338,7 +1406,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 35,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -1358,7 +1427,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 35,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -1378,7 +1448,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Las Lomas"
+          "EW Road/Landmark": "Las Lomas",
+          "Number of Lanes Crossed": 3
         },
         "geometry": {
           "coordinates": [
@@ -1398,7 +1469,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Stanford",
-          "EW Road/Landmark": "Campus"
+          "EW Road/Landmark": "Campus",
+          "Number of Lanes Crossed": 3
         },
         "geometry": {
           "coordinates": [
@@ -1418,7 +1490,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 35,
           "NS Road/Landmark": "UNMH",
-          "EW Road/Landmark": "Lomas"
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 7
         },
         "geometry": {
           "coordinates": [
@@ -1426,7 +1499,8 @@ var Crossings={
             35.08748036906795
           ],
           "type": "Point"
-        }
+        },
+        "id": 70
       },
       {
         "type": "Feature",
@@ -1438,7 +1512,8 @@ var Crossings={
           "Traffic Control": "Paint",
           "Avg Crossings/Hour": "N/A",
           "Side of Intersection": "N/A",
-          "Crossing Direction": "NS"
+          "Crossing Direction": "NS",
+          "Number of Lanes Crossed": 3
         },
         "geometry": {
           "coordinates": [
@@ -1458,7 +1533,8 @@ var Crossings={
           "Traffic Control": "Paint",
           "Avg Crossings/Hour": "N/A",
           "Side of Intersection": "N/A",
-          "Crossing Direction": "NS"
+          "Crossing Direction": "NS",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1478,7 +1554,8 @@ var Crossings={
           "Traffic Control": "Paint",
           "Avg Crossings/Hour": "N/A",
           "Side of Intersection": "N/A",
-          "Crossing Direction": "NS"
+          "Crossing Direction": "NS",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1498,7 +1575,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Princeton",
-          "EW Road/Landmark": "Redondo"
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1518,7 +1596,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 20,
           "NS Road/Landmark": "Princeton",
-          "EW Road/Landmark": "Redondo"
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1538,7 +1617,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 25,
           "NS Road/Landmark": "Princeton",
-          "EW Road/Landmark": "Redondo"
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 3
         },
         "geometry": {
           "coordinates": [
@@ -1558,7 +1638,8 @@ var Crossings={
           "Traffic Control": "Paint",
           "Avg Crossings/Hour": "N/A",
           "Side of Intersection": "S",
-          "Crossing Direction": "EW"
+          "Crossing Direction": "EW",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1578,7 +1659,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 25,
           "NS Road/Landmark": "Princeton",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1598,7 +1680,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 25,
           "NS Road/Landmark": "Princeton",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 2
         },
         "geometry": {
           "coordinates": [
@@ -1618,7 +1701,8 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Princeton",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
@@ -1638,12 +1722,283 @@ var Crossings={
           "Legal to Cross": "Legal",
           "Road Speed Limit": 30,
           "NS Road/Landmark": "Princeton",
-          "EW Road/Landmark": "Central"
+          "EW Road/Landmark": "Central",
+          "Number of Lanes Crossed": 6
         },
         "geometry": {
           "coordinates": [
             -106.61592569453904,
             35.08101138003026
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Crossing Direction": "NS",
+          "Side of Intersection": "W",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Stop Sign",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 20,
+          "NS Road/Landmark": "Yale",
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
+        },
+        "geometry": {
+          "coordinates": [
+            -106.62218787673721,
+            35.08160726034694
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Crossing Direction": "NS",
+          "Side of Intersection": "E",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Stop Sign",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 20,
+          "NS Road/Landmark": "Yale",
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
+        },
+        "geometry": {
+          "coordinates": [
+            -106.62191867805824,
+            35.08153838269149
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Crossing Direction": "EW",
+          "Side of Intersection": "S",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Paint",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 25,
+          "NS Road/Landmark": "Yale",
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 4
+        },
+        "geometry": {
+          "coordinates": [
+            -106.62207101529553,
+            35.08150365921544
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Crossing Direction": "NS",
+          "Side of Intersection": "W",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Paint",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 20,
+          "NS Road/Landmark": "Service Road",
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
+        },
+        "geometry": {
+          "coordinates": [
+            -106.62084434340717,
+            35.081542887976596
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Crossing Direction": "NS",
+          "Side of Intersection": "W",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Stop Sign",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 20,
+          "NS Road/Landmark": "Casas Del Rio - Gila",
+          "EW Road/Landmark": "Redondo",
+          "Number of Lanes Crossed": 2
+        },
+        "geometry": {
+          "coordinates": [
+            -106.61706867194862,
+            35.08376914650955
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "NS Road/Landmark": "Casas Del Rio - Gila",
+          "EW Road/Landmark": "Redondo",
+          "Road Speed Limit": 20,
+          "Legal to Cross": "Legal",
+          "Traffic Control": "Stop Sign",
+          "Crossing Direction": "EW",
+          "Side of Intersection": "N",
+          "Avg Crossings/Hour": "N/A",
+          "Number of Lanes Crossed": 2
+        },
+        "geometry": {
+          "coordinates": [
+            -106.61682047814334,
+            35.08383609844181
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Number of Lanes Crossed": 5,
+          "EW Road/Landmark": "Lomas",
+          "NS Road/Landmark": "University",
+          "Road Speed Limit": 35,
+          "Legal to Cross": "Legal",
+          "Traffic Control": "Stoplight",
+          "Avg Crossings/Hour": "N/A",
+          "Side of Intersection": "N",
+          "Crossing Direction": "EW"
+        },
+        "geometry": {
+          "coordinates": [
+            -106.6253219750499,
+            35.09048451598919
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Crossing Direction": "NS",
+          "Side of Intersection": "W",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Stoplight",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 35,
+          "NS Road/Landmark": "University",
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 7
+        },
+        "geometry": {
+          "coordinates": [
+            -106.62546463081488,
+            35.090402374440515
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Crossing Direction": "NS",
+          "Side of Intersection": "E",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Stoplight",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 35,
+          "NS Road/Landmark": "University",
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 7
+        },
+        "geometry": {
+          "coordinates": [
+            -106.62516013166628,
+            35.09025265362675
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Crossing Direction": "EW",
+          "Side of Intersection": "S",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Stoplight",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 30,
+          "NS Road/Landmark": "University",
+          "EW Road/Landmark": "Lomas",
+          "Number of Lanes Crossed": 6
+        },
+        "geometry": {
+          "coordinates": [
+            -106.6253253120267,
+            35.09015071589123
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Side of Intersection": "N",
+          "Crossing Direction": "EW",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Stop Sign",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 20,
+          "NS Road/Landmark": "Buena Vista",
+          "EW Road/Landmark": "Roma"
+        },
+        "geometry": {
+          "coordinates": [
+            -106.62412862447279,
+            35.08580057082638
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Side of Intersection": "W",
+          "Crossing Direction": "NS",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Paint",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 20,
+          "NS Road/Landmark": "Buena Vista",
+          "EW Road/Landmark": "Roma"
+        },
+        "geometry": {
+          "coordinates": [
+            -106.62420631239671,
+            35.08574277860404
+          ],
+          "type": "Point"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Side of Intersection": "E",
+          "Crossing Direction": "NS",
+          "Avg Crossings/Hour": "N/A",
+          "Traffic Control": "Paint",
+          "Legal to Cross": "Legal",
+          "Road Speed Limit": 20,
+          "NS Road/Landmark": "Buena Vista",
+          "EW Road/Landmark": "Roma"
+        },
+        "geometry": {
+          "coordinates": [
+            -106.62405446781811,
+            35.08574470501249
           ],
           "type": "Point"
         }
