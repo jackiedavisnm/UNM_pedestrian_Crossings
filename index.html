@@ -8,11 +8,22 @@
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <link rel="stylesheet" href="Style.css" />
     <script src="Crossing_Locations.js"></script>
+    
+<!-- This is for the modal -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- Above is imported for the about modal -->
+
+
+
+
     <title>Mapping Crosswalk Activity at UNM</title>
     <style>
         body {
             background-color: green;
-            color: white;
+            color: black;
             font-family: "Times New Roman", Times, serif;
             text-align: center;
         }
@@ -83,6 +94,58 @@
 
 
     </script>
+
+<!-- The code below is the modal for the project information -->
+
+<div class="container">
+    <h2>About the Project</h2>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Learn More!</button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+
+      <!-- By default, modals are medium in size. -->
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">About the Project</h4>
+          </div>
+          <div class="modal-body">
+            <h3>About the Team</h3>
+            <p>New Mexico has the highest pedestrian mortality rate in the United States. Jackie Davis, a student at the University of New Mexico has been advocating for a crosswalk on Central Avenue  near Buena Vista Drive. Observing hundreds of people crossing the street, Jackie attended several council meetings and met with officials from the Department of Municipal Development (DMD). Her persistence paved the way for a crosswalk design that has been implemented and is awaiting funding. This map provides data from several crossings in Albuquerque, their crossing frequencies, and methods of traffic control. The DMD is in the process of determining which crossings take priority for traffic control. This site aims to aid in this process while providing crossing information to the public. </p>
+         <p>Jackie Davis is a fourth-year student in the Geography and Environmental Studies department at the University of New Mexico. Her concentration is in Geographic Information Systems and holds a minor in English. Jackie is passionate about traffic law and is set to begin her J.D. at UNM in Fall 2025. (Jackiedavis5428@gmail.com) <a href="https://jackiedavisnm.github.io">Github Website</a></p>
+       <p>Bianca Camacho is a fourth year student in the Geography and Environmental Studies department at the University of New Mexico. Her concentration is in Natural Resources, and she holds minors in psychology and sustainability studies. Her research interests include agriculture and black carbon. She will begin her Master’s degree in Geographic Information Science in Fall 2025. (iconicbonk@gmail.com) </p>
+        <p>Liping Yang is an assistant professor of geographic information and computer science. Her research focuses on geospatial artificial intelligence at the University of New Mexico. She is the instructor for the course in which this site was created. </p>
+
+        <H3>References</H3>
+       <p>
+        <a href="https://leafletjs.com/examples/quick-start/">Leaflet Quick Start</a>
+    </p>
+    </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+ <!-- The code above is the modal for the project information -->
+
+
 </body>
 
 </html>
