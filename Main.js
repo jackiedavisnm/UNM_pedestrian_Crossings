@@ -34,7 +34,11 @@ function pointToCircle(feature, latlng) {
   return circleMarker;
 }
 
-//adds the circle markers to the map
+// below is to add popups to the map
+
+
+// above is to add popups to the map
+
 L.geoJSON(Crossings, {
   pointToLayer: pointToCircle
 }).addTo(map);
