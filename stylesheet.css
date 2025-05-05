@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(6, 32, 24);
+    background-color: rgb(50, 119, 98);
     color: rgb(255, 255, 255);
     font-family: "times new roman", Times, serif;
     font-size: 1.5em;
@@ -23,18 +23,18 @@ body {
 
 .body-image {
     width: 100%; /* Make the image responsive */
-    max-width: 800px; /* Set a maximum width */
+    max-width: 300px; /* Set a maximum width */
     height: auto;
     margin: 20px auto; /* Center the image */
 }
 
 h1 {
-    font-size: 9em;
+    font-size: 3em;
     font-family: Staatliches, sans-serif;
 }
 
 p {
-    font-size: 3em;
+    font-size: 1em;
     font: walkway;
     margin: 20px auto;
     width: 80%;
@@ -57,11 +57,11 @@ p {
 }
 
 .modal-title {
-    font-size: 1.5em;
+    font-size: 1.5em
 }
 
 .modal-body h3 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin-top: 10px;
 }
 
@@ -85,7 +85,7 @@ p {
 }
 
 .side-image {
-    width: 500px;
+    width: 250px;
     height: auto;
 }
 
@@ -129,4 +129,15 @@ p {
 
 .btn:hover {
     background-color: transparent; /* Ensure the hover state is also transparent */
+}
+.legend {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1000;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    background: white;
+    border-radius: 5px;
+    text-align: left;
 }

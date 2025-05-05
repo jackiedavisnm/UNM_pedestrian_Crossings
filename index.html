@@ -19,7 +19,7 @@
     
     <div class="image-map-container">
         <div class="image-container">
-            <img src="images/About.png" alt="About" class="side-image">
+            <img src="About.png" alt="About" class="side-image">
             <div class="button-container">
                 <h2>About the Project</h2>
                 <a href="about.html" class="btn btn-info btn-lg"></a>
@@ -28,7 +28,7 @@
         <div id="map" class="map"></div>
         <div class="image-container">
             <a href="https://github.com/jackiedavisnm/UNM_pedestrian_Crossings/tree/main" target="_blank">
-                <img src="images/GitHub.png" alt="GitHub" class="side-image">
+                <img src="GitHub.png" alt="GitHub" class="side-image">
             </a>
         </div>
     </div>
@@ -74,6 +74,55 @@
             onEachFeature: addPopups,
             pointToLayer: pointToCircle
         }).addTo(map);
+    </script>
+
+<div id="legend" style="position: absolute; bottom: -60px; left: 37px; background: rgba(136, 201, 152, 0.95); padding: 10px; z-index: 1000; font-size: 12px; border: 1px solid #ccc; border-radius: 4px; color: black;">
+    <strong>Traffic Control Filter</strong><br/>
+    <label><input checked="" class="control-filter" type="checkbox" value="Stoplight"/> Stoplight</label><span style="background-color: green; display: inline-block; width: 15px; height: 15px; margin-right: 5px; margin-left: 10px"></span><br/>
+    <label><input checked="" class="control-filter" type="checkbox" value="None"/> None</label><span style="background-color: black; display: inline-block; width: 15px; height: 15px; margin-right: 5px; margin-left: 10px"></span><br/>
+    <label><input checked="" class="control-filter" type="checkbox" value="Paint"/> Signs And/Or Paint</label><span style="background-color: #FFCC00; display: inline-block; width: 15px; height: 15px; margin-right: 5px; margin-left: 10px"></span><br/>
+    <label><input checked="" class="control-filter" type="checkbox" value="Stop Sign"/> Stop Sign</label><span style="background-color: red; display: inline-block; width: 15px; height: 15px; margin-right: 5px; margin-left: 10px"></span>
+    </div>
+    <script>
+      // Store all traffic control layers keyed by type
+      const trafficControlLayers = {
+        "Stoplight": [],
+        "None": [],
+        "Paint": [],
+        "Stop Sign": []
+      };
+    
+      // Preprocess and group the layers
+      map.eachLayer(layer => {
+        if (layer.feature && layer.feature.properties) {
+          const type = layer.feature.properties["Traffic Control"];
+          if (type && trafficControlLayers[type]) {
+            trafficControlLayers[type].push(layer);
+          }
+        }
+      });
+    
+      function updateTrafficControlFilter() {
+        const allowed = new Set(
+          Array.from(document.querySelectorAll('.control-filter:checked')).map(cb => cb.value)
+        );
+    
+        for (const [type, layers] of Object.entries(trafficControlLayers)) {
+          layers.forEach(layer => {
+            if (allowed.has(type)) {
+              if (!map.hasLayer(layer)) map.addLayer(layer);
+            } else {
+              if (map.hasLayer(layer)) map.removeLayer(layer);
+            }
+          });
+        }
+      }
+    
+      document.querySelectorAll('.control-filter').forEach(cb => {
+        cb.addEventListener('change', updateTrafficControlFilter);
+      });
+    
+      updateTrafficControlFilter();  // Initial run
     </script>
 </body>
 </html>
