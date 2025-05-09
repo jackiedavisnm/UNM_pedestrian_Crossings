@@ -90,9 +90,9 @@ p {
 }
 
 .map {
-    height: 900px;
+    height: 500px;
     max-height: 4000px;
-    width: 10000px;
+    width: 700px;
     max-width: 1500px;
     border: 1px solid #ddd;
     border-radius: 5px;

@@ -19,7 +19,7 @@
     
     <div class="image-map-container">
         <div class="image-container">
-            <img src="About.png" alt="About" class="side-image">
+            <img src="images/About.png" alt="About" class="side-image">
             <div class="button-container">
                 <h2>About the Project</h2>
                 <a href="about.html" class="btn btn-info btn-lg"></a>
@@ -28,53 +28,12 @@
         <div id="map" class="map"></div>
         <div class="image-container">
             <a href="https://github.com/jackiedavisnm/UNM_pedestrian_Crossings/tree/main" target="_blank">
-                <img src="GitHub.png" alt="GitHub" class="side-image">
+                <img src="images/GitHub.png" alt="GitHub" class="side-image">
             </a>
         </div>
     </div>
     
-    <script>
-        var map = L.map('map').setView([35.084196, -106.621010], 16);
-        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-        }).addTo(map);
-
-        function pointToCircle(feature, latlng) {
-            var fillColor_Var = "";
-            if (feature.properties["Traffic Control"] === "Stop Sign") {
-                fillColor_Var = "Red";
-            } else if (feature.properties["Traffic Control"] === "Stoplight") {
-                fillColor_Var = "green";
-            } else if (feature.properties["Traffic Control"] === "Paint") {
-                fillColor_Var = "#FFCC00";
-            } else {
-                fillColor_Var = "black";
-            }
-            var geojsonMarkerOptions = {
-                radius: 7,
-                fillColor: fillColor_Var,
-                color: "black",
-                weight: 1,
-                opacity: 1,
-                fillOpacity: 1
-            };
-            var circleMarker = L.circleMarker(latlng, geojsonMarkerOptions);
-            return circleMarker;
-        }
-
-        function addPopups(feature, layer) {
-            layer.bindPopup("<b>Crossing at " + feature.properties["EW Road/Landmark"] + " and " + feature.properties["NS Road/Landmark"] +
-                "<br>Traffic Control: " + feature.properties["Traffic Control"] +
-                "<br>Speed Limit: " + feature.properties["Road Speed Limit"] + "<br>Number of Lanes Crossed: " + feature.properties["Number of Lanes Crossed"]
-            );
-        }
-
-        L.geoJSON(Crossings, {
-            onEachFeature: addPopups,
-            pointToLayer: pointToCircle
-        }).addTo(map);
-    </script>
+    <script src="Main.js"></script>
 
 <div id="legend" style="position: absolute; bottom: -60px; left: 37px; background: rgba(136, 201, 152, 0.95); padding: 10px; z-index: 1000; font-size: 12px; border: 1px solid #ccc; border-radius: 4px; color: black;">
     <strong>Traffic Control Filter</strong><br/>
